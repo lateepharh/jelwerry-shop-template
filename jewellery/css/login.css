@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: #f5f5f5;
+  justify-content: space-between;
+  padding: 10px 10vw;
+  height: fit-content;
+}
+header a {
+  color: #383838;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+header img {
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../jewels/bg\ pearls.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-card {
+  width: 30vw;
+  height: fit-content;
+  padding: 15px;
+  background-color: #f5f5f5;
+  box-shadow: 5px 5px 5px rgb(219, 216, 216), -5px -5px 5px rgb(219, 216, 216);
+}
+
+h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 0;
+  background-color: #383838;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+#email, #password, #text, #tel {
+  width: 300px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+}
+#email::placeholder, #password::placeholder, #text::placeholder, #tel::placeholder {
+  opacity: 0.5;
+}
+#email::placeholder:hover, #password::placeholder:hover, #text::placeholder:hover, #tel::placeholder:hover {
+  opacity: 1;
+}
+
+.checkbox {
+  color: #383838;
+  display: flex;
+  text-transform: capitalize;
+  margin: 10px;
+  gap: 8px;
+}
+
+.login {
+  border: 1px solid #383838;
+  background-color: #383838;
+  color: #f5f5f5;
+  height: fit-content;
+  width: 250px;
+  padding: 10px;
+  margin: 5px 5.9vw;
+}
+.login:hover {
+  transform: scale(1.2);
+}
+
+.center {
+  text-align: center;
+  position: relative;
+}
+
+.after::after, .after::before {
+  content: "";
+  position: absolute;
+  width: 119px;
+  height: 1px;
+  background-color: #383838;
+  left: 15%;
+  top: 39%;
+  background-color: #383838;
+}
+
+.after::before {
+  left: 54%;
+}
+
+.after {
+  text-transform: capitalize;
+  color: #383838;
+}
+
+.google {
+  width: 250px;
+  height: fit-content;
+  padding: 10px;
+  border: 1px solid #383838;
+  color: #383838;
+  margin: 10px 6vw;
+  text-transform: capitalize;
+}
+
+.pass {
+  text-transform: capitalize;
+  color: #383838;
+}
+
+.account {
+  text-align: center;
+  font-size: 16px;
+  color: #383838;
+}
+
+button {
+  background-color: #383838;
+  color: #f5f5f5;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+}/*# sourceMappingURL=login.css.map */
